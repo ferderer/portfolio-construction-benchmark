@@ -89,7 +89,7 @@ This concentration is not a bug in the optimizer — it's a feature. Markowitz i
 
 Modern iterations attempt to fix the instability: Ledoit-Wolf shrinkage regularizes the covariance matrix, Hierarchical Risk Parity (HRP) bypasses the need for return estimates entirely, and minimum-variance portfolios remove the expected return input altogether. These are real improvements. But they address the *estimation error* problem while leaving the *mandate drift* and *turnover cost* problems intact. A shrunk covariance matrix still produces allocations that drift from the client's risk profile. An HRP portfolio still rebalances more frequently than a threshold-based approach. DeMiguel et al. (2009) found that even with these improvements, 1/N diversification remained competitive out of sample across most datasets.
 
-![Markowitz Weight Instability](../../results/figures/04_markowitz_instability.png)
+![Markowitz Weight Instability](../results/figures/04_markowitz_instability.png)
 
 ## Black-Litterman: Complexity Without Edge
 
@@ -129,7 +129,7 @@ The 1/N equal-weight benchmark is instructive. At 7.70% CAGR with no optimizatio
 
 The tracking error tells the operational story. Rule-based stays within 0.95% of its target allocation. Markowitz drifts 7.45% away. The Markowitz portfolio bears almost no resemblance to what was promised to the client.
 
-![Cumulative Performance](../../results/figures/01_cumulative_performance.png)
+![Cumulative Performance](../results/figures/01_cumulative_performance.png)
 
 ## What Transaction Costs Reveal
 
@@ -144,7 +144,7 @@ Running all strategies at 0, 10, and 20 basis points of transaction costs expose
 
 Rule-based loses 1 basis point to transaction costs over 20 years. Markowitz loses 23. **Markowitz loses 23 times more to transaction costs than rule-based.**
 
-![Transaction Cost Impact](../../results/figures/08_transaction_cost_impact.png)
+![Transaction Cost Impact](../results/figures/08_transaction_cost_impact.png)
 
 At 20 basis points — a conservative estimate for ETF trading — that's the difference between 8.74% and 7.92% CAGR. Compounded over 20 years on a €100,000 portfolio, that's roughly €16,000 in lost returns. Not because the underlying investments performed differently, but because the optimizer traded too much. And this understates the real cost: in taxable accounts, every rebalancing trade can realize capital gains. Over a 20-year horizon, the tax drag of frequent re-optimization often exceeds the explicit transaction costs.
 
@@ -162,7 +162,7 @@ It doesn't. Varying the rule-based equity allocation between 50% and 70% does no
 
 All three rule-based variants outperform Black-Litterman in CAGR. The aggressive variant outperforms every strategy on every metric except max drawdown. The moderate variant, with less US equity exposure, still beats Markowitz in CAGR while maintaining lower turnover.
 
-![Robustness: CAGR vs. Turnover](../../results/figures/09_robustness.png)
+![Robustness: CAGR vs. Turnover](../results/figures/09_robustness.png)
 
 The pattern is stable. The specific weights matter less than the approach.
 
