@@ -130,7 +130,7 @@ Hier wird es konkret – und das ist der Teil, der die meisten überrascht.
 
 Die folgende Berechnung zeigt drei Szenarien mit 10.000 € Startkapital und 200 € monatlicher Sparrate bei 7% Marktrendite p.a.:
 
-*(Chart: etf_comparison.png)*
+![ETF Vergleich](etf_comparison.png)
 
 **Nach 30 Jahren:**
 - Vanguard FTSE All-World (TD ~0,00%): **310.013 €**
@@ -250,7 +250,7 @@ Konkret für ein 50.000 € Depot bei Basiszins 2026:
 | Steuerpflichtig (nach 30% Teilfreistellung) | 784,00 € |
 | Steuer (~26,375%) | **~207 €** |
 
-*(Chart: vorabpauschale_table.png)*
+![Vorabpauschale Tabelle](vorabpauschale_table.png)
 
 Das interaktive Tool zeigt, wie sich das für verschiedene Depotwerte und Basiszins-Szenarien verändert.
 
