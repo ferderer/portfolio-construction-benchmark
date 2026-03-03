@@ -89,44 +89,13 @@ Wichtig: Die TD ist vergangenheitsbezogen und nicht garantiert wiederholbar – 
 
 **Replikation:** Physisch oder synthetisch – wie oben erklärt.
 
-### Konkrete ETF-Empfehlungen (Daten: trackingdifferences.com, 5-Jahres-TD)
-
-Die Tabelle ist nach Einsatzzweck gruppiert, nicht nach Rendite-Ranking. Die 5-Jahres-TD ist aussagekräftiger als ein einzelnes Jahr, das ein Ausreißer sein kann.
-
-**Für Einsteiger – etabliert, liquide, physisch replizierend:**
-
-| ETF | Index | TER | 5J TD | AUM |
-|---|---|---:|---:|---:|
-| Vanguard FTSE All-World Acc | FTSE All-World | 0,22% | +0,02% | 26,6 Mrd. € |
-| iShares Core MSCI World | MSCI World | 0,20% | +0,03% | 108,7 Mrd. € |
-
-Beide physisch replizierend, sehr hohe Liquidität, breite Broker-Verfügbarkeit. Der iShares ist der größte ETF der Liste – praktisch kein Schließungsrisiko. Die leicht positive TD ist der Preis für Transparenz und Größe.
-
-**Für TD-bewusste Anleger – negative TD durch Wertpapierleihe / Swap:**
-
-| ETF | Index | TER | 5J TD | AUM | Replikation |
-|---|---|---:|---:|---:|---|
-| SPDR MSCI World | MSCI World | 0,12% | −0,14% | 13,8 Mrd. € | Physisch |
-| Invesco FTSE All-World | FTSE All-World | 0,15% | −0,15% | 2,1 Mrd. € | Synthetisch |
-| Xtrackers MSCI World 1C | MSCI World | 0,19% | −0,05% | 16,2 Mrd. € | Synthetisch |
-
-SPDR liefert bemerkenswert: physische Replikation, niedrigste TER der Gruppe, und trotzdem negative TD – die Wertpapierleihe arbeitet hier besonders effizient. Invesco ist synthetisch, was die negative TD erleichtert, aber für Einsteiger einen zusätzlichen Erklärungsbedarf schafft. Xtrackers ist ein solider Mittelweg.
-
-**Lehrbeispiel – warum TER allein irreführt:**
-
-| ETF | Index | TER | 5J TD | AUM |
-|---|---|---:|---:|---:|
-| SPDR MSCI All Country World | MSCI ACWI | 0,12% | +0,16% | 7,1 Mrd. € |
-
-Niedrigste TER der ganzen Liste – aber mit Abstand die schlechteste TD. Nach fünf Jahren zahlt man effektiv mehr als bei ETFs mit höherer TER. Exakt das Beispiel, das zeigt warum die TD die entscheidende Kennzahl ist.
-
-Wer nach dieser Kurzübersicht wissen will, welche ETFs tatsächlich ihren Index schlagen und warum – dafür gibt es das nächste Kapitel.
+Welche konkreten ETFs auf diese Kriterien am besten abschneiden – inklusive einer vollständigen Analyse aller Welt-ETFs mit negativer Tracking Difference – zeigt das nächste Kapitel.
 
 ---
 
 ## 3. ETF-Auswahl im Detail: Alle Welt-ETFs mit negativer Tracking Difference
 
-Die Empfehlungen im vorigen Kapitel sind bewusst kompakt – drei Gruppen, ein klares Fazit. Für Leser, die tiefer einsteigen wollen, folgt hier die vollständige Analyse: alle thesaurierenden Welt-ETFs, die ihren Index tatsächlich geschlagen haben.
+Für Leser, die tiefer einsteigen wollen, folgt hier die vollständige Analyse: alle thesaurierenden Welt-ETFs, die ihren Index tatsächlich geschlagen haben.
 
 ### Methodik und Bereinigung
 
