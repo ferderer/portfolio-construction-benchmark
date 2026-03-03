@@ -1,4 +1,4 @@
-# ETF-Grundlagen: Der ehrliche Praxisguide
+﻿# ETF-Grundlagen: Der ehrliche Praxisguide
 
 > **Hinweis:** Ich bin kein Finanzberater. Dieser Artikel ersetzt keine professionelle Beratung und begründet keine Haftung. Alle Zahlen sind Beispielrechnungen auf Basis historischer Daten – zukünftige Renditen sind nicht garantiert.
 
@@ -120,9 +120,107 @@ SPDR liefert bemerkenswert: physische Replikation, niedrigste TER der Gruppe, un
 
 Niedrigste TER der ganzen Liste – aber mit Abstand die schlechteste TD. Nach fünf Jahren zahlt man effektiv mehr als bei ETFs mit höherer TER. Exakt das Beispiel, das zeigt warum die TD die entscheidende Kennzahl ist.
 
+Wer nach dieser Kurzübersicht wissen will, welche ETFs tatsächlich ihren Index schlagen und warum – dafür gibt es das nächste Kapitel.
+
 ---
 
-## 3. Was kleine Kostenunterschiede über die Zeit anrichten
+## 3. ETF-Auswahl im Detail: Alle Welt-ETFs mit negativer Tracking Difference
+
+Die Empfehlungen im vorigen Kapitel sind bewusst kompakt – drei Gruppen, ein klares Fazit. Für Leser, die tiefer einsteigen wollen, folgt hier die vollständige Analyse: alle thesaurierenden Welt-ETFs, die ihren Index tatsächlich geschlagen haben.
+
+### Methodik und Bereinigung
+
+Die folgende Auswahl basiert auf einer extraETF-Filterung aller thesaurierenden Welt-ETFs mit negativer Tracking Difference (1-Jahres-TD). Die Rohdaten wurden nach folgenden Kriterien bereinigt:
+
+**Ausgeschlossen** wurden währungsgesicherte ETFs (Hedged CHF/EUR), deren extrem negative TD-Werte (bis −11%) aus Hedging-Gewinnen durch Zinsdifferenzen stammen und nicht mit ungesicherten ETFs vergleichbar sind. Bei Umkehr der Zinsdifferenz schlägt dieser Effekt ins Negative um. Ebenso ausgeschlossen: ETFs in Nicht-USD-Basiswährungen (SGD, EUR-notierte Duplikate), bei denen die TD durch Währungseffekte verzerrt ist, sowie Faktor- und Strategie-ETFs (Value, Equal Weight, High Dividend, ESG-Screened), die bewusst einen anderen Index abbilden und in eine eigene Analyse gehören.
+
+Übrig bleiben **13 Plain-Vanilla-ETFs** in USD, die breite Industrieländer- oder Weltindizes abbilden.
+
+### Wie ein ETF seinen Index schlagen kann
+
+Im vorigen Kapitel hast du gelesen, dass eine negative TD bedeutet: Der ETF hat seinen Index übertroffen. Drei Mechanismen machen das möglich:
+
+**Wertpapierleihe.** Der Fonds verleiht Aktien an institutionelle Gegenparteien (etwa für Leerverkäufe) und kassiert Leihgebühren. Bei den großen MSCI-World-ETFs liegen die Einnahmen typischerweise bei 0,02–0,05% p.a. – genug, um einen Teil der TER zu kompensieren.
+
+**Optimiertes Sampling.** Kein physischer ETF hält alle 1.400+ Titel des MSCI World in exakter Gewichtung. Die Indexabteilungen der Anbieter wählen eine repräsentative Teilmenge, die durch geschicktes Gewichten den Index sogar leicht übertreffen kann.
+
+**Steuerliche Optimierung.** Quellensteuer-Rückforderungen und die Nutzung von Doppelbesteuerungsabkommen senken die effektiven Kosten. Der Index rechnet mit pauschalen Quellensteuersätzen; der Fondsmanager kann oft weniger zahlen.
+
+Die TD aggregiert alle diese Effekte in einer einzigen Zahl. Ein ETF mit TER 0,12% und TD −0,15% hat effektiv Geld *verdient* gegenüber dem Index. Ein ETF mit TER 0,05% und TD +0,10% hat trotz niedrigerer Gebühren *schlechter* abgeschnitten.
+
+### Die bereinigte Auswahl
+
+| Rang | Fondsname | Replikation | TER | AUM (Mio €) | Positionen | TD |
+|-----:|-----------|:-----------:|----:|------------:|-----------:|-----:|
+| 1 | Amundi Prime Global | physisch | 0,05% | 1.150 | 1.381 | −0,21% |
+| 2 | HSBC MSCI World | physisch | 0,15% | 1.540 | 1.280 | −0,18% |
+| 3 | Invesco FTSE All-World | physisch | 0,15% | 2.440 | 2.349 | −0,16% |
+| 4 | SPDR MSCI World | physisch | 0,12% | 14.850 | 1.311 | −0,15% |
+| 5 | Vanguard FTSE Developed World | physisch | 0,12% | 5.050 | 1.991 | −0,14% |
+| 6 | Xtrackers MSCI World ex USA | physisch | 0,15% | 5.130 | 775 | −0,13% |
+| 7 | Xtrackers MSCI World | physisch | 0,12% | 16.780 | 1.321 | −0,09% |
+| 8 | Amundi Core MSCI World | physisch | 0,12% | 12.450 | 1.318 | −0,08% |
+| 9 | SPDR MSCI ACWI IMI | physisch | 0,17% | 4.460 | 4.398 | −0,05% |
+| 10 | iShares MSCI World Swap | synthetisch | 0,12% | 971 | — | −0,28% |
+| 11 | UBS MSCI ACWI SF (synth.) | synthetisch | 0,21% | 1.960 | — | −0,39% |
+| 12 | Scalable MSCI AC World Xtrackers | synthetisch | 0,17% | 470 | — | −0,30% |
+| 13 | Amundi MSCI World Swap II | synthetisch | 0,30% | 480 | — | −0,08% |
+
+*Sortierung nach Replikationsart, dann TD. AUM-Daten gerundet. Quelle: extraETF, Stand März 2026.*
+
+### Die Platzhirsche
+
+SPDR MSCI World (TD −0,15%), Vanguard FTSE Developed World (TD −0,14%) und Xtrackers MSCI World (TD −0,09%) bilden das erwartbare Spitzenfeld. Alle drei haben TER 0,12%, massive Fondsvolumina (5–17 Mrd. €) und jahrelange Track Records. Die Unterschiede zwischen ihnen sind marginal – wer einen der drei bespart, macht nichts falsch.
+
+Bemerkenswert: Alle drei schlagen ihren Index trotz 0,12% Kosten. Die Wertpapierleihe-Einnahmen und steuerlichen Optimierungen überkompensieren die TER vollständig.
+
+### Preis-Leistungs-Sieger: Amundi Prime Global
+
+Mit TER 0,05% ist der Amundi Prime Global der günstigste ETF im gesamten Feld. Dass er zusätzlich eine TD von −0,21% liefert, macht ihn zum effizientesten Produkt der Auswahl: 26 Basispunkte besser als der Index, bei nur 5 Basispunkten Kosten. Mit 1,15 Mrd. € AUM ist er deutlich kleiner als die Platzhirsche – aber weit über der kritischen Schwelle von 100 Mio. €.
+
+Wichtig zu wissen: Der Amundi Prime Global bildet den Solactive GBS Developed Markets Large & Mid Cap Index ab, nicht den MSCI World. In der Praxis sind die Unterschiede vernachlässigbar (beide ca. 1.400 Titel, >99% Korrelation), aber die TD ist streng genommen nicht direkt mit MSCI-World-ETFs vergleichbar, da ein anderer Referenzindex zugrunde liegt.
+
+### Die Breitesten: Invesco FTSE All-World und SPDR MSCI ACWI IMI
+
+Wer nicht nur Industrieländer, sondern auch Schwellenländer in einem einzigen ETF abdecken will, hat zwei Kandidaten:
+
+Der **Invesco FTSE All-World** (2.349 Positionen, TD −0,16%) bildet den FTSE All-World Index ab und enthält ca. 10% Emerging Markets. Der **SPDR MSCI ACWI IMI** (4.398 Positionen, TD −0,05%) bildet den MSCI ACWI Investable Market Index ab und enthält zusätzlich Small Caps – der breiteste ETF im gesamten Feld.
+
+Beide sind eine echte Ein-ETF-Lösung für den gesamten Aktienmarkt. Wer in Kapitel 2 die Empfehlung "FTSE All-World oder MSCI ACWI" gelesen hat: Hier sind die konkreten Kandidaten mit negativer TD.
+
+### Sonderfall: Xtrackers MSCI World ex USA
+
+Mit 5,13 Mrd. € AUM und TD −0,13% ist der Xtrackers MSCI World ex USA kein klassischer Welt-ETF, sondern ein gezieltes Instrument für Anleger, die ihr US-Exposure separat steuern wollen. Bei einem US-Anteil von ca. 70% im MSCI World kann die Kombination aus einem S&P-500-ETF und diesem Produkt eine bewusste Gewichtungssteuerung ermöglichen. Für Buy-and-Hold-Anleger mit einem einzigen ETF ist er nicht die erste Wahl.
+
+### Synthetische Replikation: Swap-ETFs
+
+Vier ETFs in der Auswahl nutzen synthetische Replikation. Ihr Vorteil: tendenziell bessere TD-Werte, weil der Swap-Partner die Quellensteuer-Optimierung übernimmt und die Index-Rendite direkt garantiert. Ihr Nachteil: Kontrahentenrisiko – bei Ausfall des Swap-Partners greift die Besicherung, aber das Restrisiko ist nicht null. Das Kontrahentenrisiko ist regulatorisch auf 10% des Fondsvermögens begrenzt (wie in Kapitel 1 erklärt).
+
+Die stärksten Swap-Kandidaten sind iShares MSCI World Swap (TD −0,28%, TER 0,12%) und UBS MSCI ACWI SF (TD −0,39%, TER 0,21%). Der Scalable MSCI AC World Xtrackers und Amundi MSCI World Swap II sind mit kleinerem AUM die schwächeren Optionen.
+
+### Entscheidungshilfe
+
+**"Ich will einen ETF, über den ich nie wieder nachdenken muss."**
+→ SPDR MSCI World, Vanguard FTSE Developed World oder Xtrackers MSCI World. Riesiges Volumen, bewährt, jahrelang negative TD.
+
+**"Ich will maximale Kosteneffizienz."**
+→ Amundi Prime Global. TER 0,05%, TD −0,21%. Kein anderer ETF liefert so viel Rendite pro Euro Kosten.
+
+**"Ich will die ganze Welt in einem ETF – inklusive Emerging Markets."**
+→ SPDR MSCI ACWI IMI (breiteste Abdeckung, inkl. Small Caps) oder Invesco FTSE All-World (schlanker, bessere TD).
+
+**"Ich kann Swap-Risiko einordnen und will maximale TD-Effizienz."**
+→ iShares MSCI World Swap oder UBS MSCI ACWI SF.
+
+### Was diese Tabelle nicht zeigt
+
+Die Tracking Difference ist eine historische Kennzahl – sie beschreibt das letzte Jahr, nicht die Zukunft. Ein ETF mit TD −0,15% kann nächstes Jahr bei −0,05% oder +0,02% landen. Die Persistenz negativer TDs über mehrere Jahre ist das relevantere Signal. Wer tiefer einsteigen will, vergleicht die TD über 3–5 Jahre auf [trackingdifferences.com](https://www.trackingdifferences.com).
+
+Ebenfalls nicht abgebildet: Spread (Geld-Brief-Spanne beim Kauf/Verkauf), Steuersitz des Fonds (Irland vs. Luxemburg), und die Sparplan-Verfügbarkeit beim eigenen Broker. Für einen Sparplan-Anleger, der 300 € monatlich investiert, kann ein ETF mit 0,02% schlechterem Spread teurer sein als einer mit 0,05% schlechterer TD.
+
+---
+
+## 4. Was kleine Kostenunterschiede über die Zeit anrichten
 
 Hier wird es konkret – und das ist der Teil, der die meisten überrascht.
 
@@ -145,7 +243,7 @@ Das untere Panel im Chart zeigt, wann der Kostennachteil wirklich spürbar wird:
 
 ---
 
-## 4. Streuung: Reicht ein ETF oder brauche ich mehrere?
+## 5. Streuung: Reicht ein ETF oder brauche ich mehrere?
 
 Kurze Antwort: Für die meisten Menschen reicht **ein** ETF auf den FTSE All-World oder MSCI ACWI vollständig aus.
 
@@ -183,7 +281,7 @@ KI-Themen-ETFs leiden am klassischen Timing-Problem: Wer 2023 oder 2024 einstieg
 
 ---
 
-## 5. Depot eröffnen: Wo und warum
+## 6. Depot eröffnen: Wo und warum
 
 Du kannst den besten ETF der Welt ausgewählt haben – wenn dein Broker dich jedes Mal 10 € für den Kauf berechnet, frisst das bei kleinen Sparraten einen beachtlichen Teil der Rendite. Broker-Wahl ist also keine Kleinigkeit.
 
@@ -214,7 +312,7 @@ Wer in Betracht zieht, ins Ausland zu ziehen – oder Verwandte im Ausland hat, 
 
 ---
 
-## 6. Steuer – der Teil, den alle überspringen
+## 7. Steuer – der Teil, den alle überspringen
 
 Steuern sind kein Grund, nicht zu investieren. Aber wer sie ignoriert, verschenkt Geld.
 
@@ -268,7 +366,7 @@ Ein thesaurierender ETF reinvestiert alles und wird nur über die Vorabpauschale
 
 ---
 
-## 7. Der Sparplan: Einrichten und vergessen
+## 8. Der Sparplan: Einrichten und vergessen
 
 Ein Sparplan ist die einfachste Art, systematisch zu investieren. Du legst einmal fest: wie viel, in welchen ETF, in welchem Rhythmus – und dann passiert alles automatisch.
 
@@ -300,7 +398,7 @@ Ein praktischer Test vor dem ersten Investment: Stell dir vor, dein Depot verlie
 
 ---
 
-## 8. Häufige Fehler
+## 9. Häufige Fehler
 
 **Zu viele ETFs kaufen.** Fünf ETFs, die sich zu 80% überlappen, sind keine bessere Streuung als einer. Sie sind nur mehr Verwaltungsaufwand. Ein FTSE All-World *plus* ein MSCI World *plus* ein S&P 500 bedeutet, dass du US-Aktien dreifach übergewichtest.
 
@@ -314,7 +412,7 @@ Ein praktischer Test vor dem ersten Investment: Stell dir vor, dein Depot verlie
 
 ---
 
-## 9. Fazit: Was du konkret brauchst
+## 10. Fazit: Was du konkret brauchst
 
 Das vollständige Setup für die meisten Menschen:
 
