@@ -1,8 +1,10 @@
-﻿# ETF-Grundlagen: Der ehrliche Praxisguide
+﻿# ETF-Grundlagen: Der ehrliche Praxisguide – 1.0
+
 
 > **Hinweis:** Ich bin kein Finanzberater. Dieser Artikel ersetzt keine professionelle Beratung und begründet keine Haftung. Alle Zahlen sind Beispielrechnungen auf Basis historischer Daten – zukünftige Renditen sind nicht garantiert.
 
 ---
+*Autor: Vadim Ferderer. Aktualisiert am 03. März 2026*
 
 ## Warum dieser Artikel existiert
 
@@ -120,7 +122,7 @@ Die TD aggregiert alle diese Effekte in einer einzigen Zahl. Ein ETF mit TER 0,1
 ### Die bereinigte Auswahl
 
 | Rang | Fondsname | Replikation | TER | AUM (Mio €) | Positionen | TD |
-|-----:|-----------|:-----------:|----:|------------:|-----------:|-----:|
+|:-----|-----------|:-----------:|----:|------------:|-----------:|-----:|
 | 1 | Amundi Prime Global | physisch | 0,05% | 1.150 | 1.381 | −0,21% |
 | 2 | HSBC MSCI World | physisch | 0,15% | 1.540 | 1.280 | −0,18% |
 | 3 | Invesco FTSE All-World | physisch | 0,15% | 2.440 | 2.349 | −0,16% |
@@ -245,8 +247,6 @@ KI-Themen-ETFs leiden am klassischen Timing-Problem: Wer 2023 oder 2024 einstieg
 > **Notgroschen:** Bevor du investierst, solltest du 3–6 Monatsausgaben liquide auf einem Tagesgeldkonto haben. Der Sparplan darf nicht dazu führen, dass du im Notfall ETFs mit Verlust verkaufen musst.
 >
 > **Schulden:** Wer Konsumkredite oder Kreditkartenschulden mit 8–15% Zinsen hat, sollte diese zuerst tilgen. Ein ETF-Sparplan mit erwarteten 7% realer Rendite ergibt rechnerisch keinen Sinn, solange er gegen 12% Schuldzinsen läuft.
-
----
 
 ---
 
